@@ -1,0 +1,35 @@
+<html lang="en" ng-app="application" manifest="cache.mf">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"></link>
+    <link href="css/master.css" type="text/css" rel="stylesheet"></link>
+    <script src="js/localforage.js"></script>
+    <script src="js/reconnecting-websocket.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/extensions.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/infrastructure.js"></script>
+    <script src="js/repositories.js"></script>
+    <script src="js/application-services.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/application.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1>Socks4US</h1>
+        <h2>We rock at selling socks!</h2>
+        <div class="top-menu" ng-include="'/partials/shopping-cart.htm'"></div>
+        <div class="align-right" ng-include="'/partials/notification-widget.htm'"></div>
+    </header>
+
+
+    <div class="container">
+        <div ng-include="'/partials/breadcrumble.htm'"></div>
+
+        <div ng-view></div>
+
+        <div ng-include="'/partials/last-viewed-products.htm'"></div>
+    </div>
+  </body>
+</html> 

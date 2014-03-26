@@ -1,0 +1,11 @@
+<h3>Our collection</h3>
+<ul class="product-category-list">
+	<li ng-repeat="category in categories">
+		<a href="#/categories/{{category.name}}">
+			<img ng-src="{{category.img}}"/><br />
+			{{ category.name }}
+		</a>
+	</li>
+</ul>
+
+<div ng-include="'/partials/last-viewed-products.htm'"></div>

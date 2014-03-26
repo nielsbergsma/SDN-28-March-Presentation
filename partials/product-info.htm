@@ -1,0 +1,23 @@
+<h3>Details of {{ product }} ({{ category }})</h3>
+<span class="price">Price per item is &euro;{{ info.price }}</span>
+<br />
+<img ng-src="{{ info.img }}" />
+<br />
+<br />
+<br />
+
+<div class="well">
+	<form role="form">
+	  <div class="form-group">
+	  	<label>Quantity</label>
+		<select class="form-control" ng-model="quantity"> 
+			<option ng-repeat="q in [1,2,3,4,5,6,7,8,9]" value="{{q}}">{{q}}&times; (&euro; {{formatAsPrice(info.price * q) }})</option>
+		</select>
+	   </div>
+	   <button ng-click="addToCart({ product: product, category: category, price: info.price }, quantity)" class="btn btn-primary">
+			<i class="glyphicon glyphicon-shopping-cart"></i> Buy
+	   </button>
+	</form>
+</div>
+
+<div ng-include="'/partials/last-viewed-products.htm'"></div>

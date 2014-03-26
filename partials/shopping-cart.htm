@@ -1,0 +1,16 @@
+<span ng-controller="shoppingCartController">
+	<i class="glyphicon glyphicon-shopping-cart"></i>
+	<a id="shopping-cart-toggle" href="javascript:toggleDropdown('shopping-cart')">
+	    {{order.lines.length}} items
+	</a>
+	<span ng-if="order.lines.length > 0" class="caret"></span>
+	<div ng-if="order.lines.length > 0" id="shopping-cart" class="menu" data-state="closed">
+		<div ng-repeat="orderLine in order.lines">
+			{{orderLine.product.product}} ({{orderLine.product.category}}) {{orderLine.quantity}}&times;
+		</div>
+	    <br />  
+	    <strong>Total</strong> &euro;{{ formatAsPrice(order.total()) }}
+	    <br />  
+	    <button ng-click="purchase()" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-ok"></i> Place order</button>           
+	</div>
+</span>

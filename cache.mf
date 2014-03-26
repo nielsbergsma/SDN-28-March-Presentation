@@ -1,0 +1,44 @@
+CACHE MANIFEST
+
+CACHE:
+css/bootstrap.min.css
+css/master.css
+fonts/glyphicons-halflings-regular.eot
+fonts/glyphicons-halflings-regular.svg
+fonts/glyphicons-halflings-regular.ttf
+fonts/glyphicons-halflings-regular.woff
+img/background3-2.jpg
+img/bell.png
+img/no_image.jpg
+js/angular-route.js
+js/angular.js
+js/application-services.js
+js/application.js
+js/bootstrap.min.js
+js/controllers.js
+js/extensions.js
+js/infrastructure.js
+js/localforage.js
+js/model.js
+js/reconnecting-websocket.js
+js/repositories.js
+partials/breadcrumble.htm
+partials/category-list.htm
+partials/last-viewed-products.htm
+partials/notification-widget.htm
+partials/product-info.htm
+partials/product-list.htm
+partials/shopping-cart.htm
+index.htm
+
+
+# Resources that require the user to be online.
+NETWORK:
+*
+
+# static.html will be served if main.py is inaccessible
+# offline.jpg will be served in place of all images in images/large/
+# offline.html will be served in place of all other .html files
+FALLBACK:
+#/main.py /static.html
+img/ img/no_image.jpg
