@@ -1,7 +1,7 @@
 #Socks4us webwinkel#
 
 ##Beschrijving##
-Dit is de demo-applicatie geschreven voor mijn SDN presentatie van 28 maart 2014. Het is een puur statische html5-app met local storage, websockets, cache manifest and notifications. Server side is een expermintele implementatie van micro services architectuur. 
+Dit is de demo-applicatie geschreven voor mijn SDN presentatie van 28 maart 2014. Het is een puur statische html5-app met local storage, websockets, cache manifest and notifications. Serverside is een expermintele implementatie van micro services architectuur. 
 
 Het doel van de applicatie is om aan te tonen dat het mogelijk is om de volledige applicatie-stack (ui, business layer, persistance) aan de clientside te implementeren.
 
