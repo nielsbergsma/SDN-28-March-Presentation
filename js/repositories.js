@@ -1,6 +1,6 @@
-'use strict';
-
 (function() {
+	'use strict';
+	
 	var module = angular.module("repositories", ["model"]);
 
 	module.service("lastViewedProductsRepository", function($q, $http) {

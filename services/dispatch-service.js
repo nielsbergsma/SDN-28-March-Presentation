@@ -3,7 +3,8 @@
 var WebSocketServer = require('websocket').server;
 var Promise = require('promise');
 var requestify = require('requestify'); 
-var express = require("express")
+var express = require("express");
+var pathUtils = require("path");
 
 var http = express();
 var server = http.listen(8080);
@@ -38,7 +39,7 @@ http.get("*", function (req, res) {
 		path = "index.htm";
 	}
 
-	res.sendfile(path);
+	res.sendfile(pathUtils.resolve("../" + path));
 });
 
 //set up web socket handlers

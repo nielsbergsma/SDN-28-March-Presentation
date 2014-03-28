@@ -1,7 +1,5 @@
-'use strict';
-
 (function() {
-  //window.isOffline = true;
+  'use strict';
 
   var application = angular.module("application", ["ngRoute", "controllers", "infrastructure"]);
 

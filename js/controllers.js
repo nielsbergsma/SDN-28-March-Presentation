@@ -1,6 +1,5 @@
-'use strict';
-
 (function() { 
+  "use strict";
   var module = angular.module("controllers", ["applicationServices"]);
 
   module.controller("notificationWidget", function($scope) {

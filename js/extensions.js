@@ -1,5 +1,3 @@
-'use strict';
-
 Array.merge = function(arr1, arr2) {
   return [].push.apply(arr1, arr2);
 }

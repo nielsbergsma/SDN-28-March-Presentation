@@ -1,6 +1,6 @@
-'use strict';
-
 (function() {
+	'use strict';
+
     var WebSocket = window.WebSocket || window.MozWebSocket;
 	var module = angular.module("infrastructure", []);
 
