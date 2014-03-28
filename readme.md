@@ -22,4 +22,4 @@ De webapplicatie is nu beschikbaar op http://localhost:8080/
 
 ##Contact##
 Voor vragen en opmerkingen ben ik bereiken via: 
-- E-mail: n.bergsm@gmail.com
+- E-mail: n.bergsma@gmail.com
