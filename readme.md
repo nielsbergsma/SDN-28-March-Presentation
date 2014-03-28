@@ -1,4 +1,4 @@
-#Suck4us webwinkel#
+#Socks4us webwinkel#
 
 ##Beschrijving##
 Dit is de demo-applicatie geschreven voor mijn SDN presentatie van 28 maart 2014. Het is een puur statische html5-app met local storage, websockets, cache manifest and notifications. Server side is een expermintele implementatie van micro services architectuur. 
