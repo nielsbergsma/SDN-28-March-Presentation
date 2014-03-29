@@ -5,6 +5,9 @@ Dit is de demo-applicatie geschreven voor mijn SDN presentatie van 28 maart 2014
 
 Het doel van de applicatie is om aan te tonen dat het mogelijk is om de volledige applicatie-stack (ui, business layer, persistance) aan de clientside te implementeren.
 
+##Browser compatibility##
+Werkt in recente versies van Chrome, Safari en Firefox
+
 ##Gebruikte frameworks en libraries##
 - AngularJS
 - LocalForage
