@@ -17,11 +17,14 @@ Werkt in recente versies van Chrome, Safari en Firefox
 ##Benodigdheden##
 - NodeJS (een recente versie)
 
-##Applicatie starten##
-Start als eerste de registry service: open een command shell en navigeer naar de map "services". Start de service met het commando: node registry-service.js. 
+##Installatie & start##
+- Open een command shell en 
+- Voer het commando 'npm install' uit
+- Navigeer naar de map "services"
+- Start als eerste de registry service met het commando: node registry-service.js
+- Start daarna, op vergelijkbare manier alle andere services, behalve service.js
 
-Start daarna, op vergelijkbare manier alle andere services, behalve service.js
-De webapplicatie is nu beschikbaar op http://localhost:8080/
+De webapplicatie is nu beschikbaar op http://localhost:8080
 
 ##Contact##
 Voor vragen en opmerkingen ben ik bereiken via: 
